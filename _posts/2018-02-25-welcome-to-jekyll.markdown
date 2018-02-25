@@ -6,8 +6,4 @@ categories: jekyll update
 ---
 Today I purchased 17 pounds of LEGO parts.
 
-{% for image in site.static_files %}
-  {% if image.path contains 'assets/images/lego' %}
-    <img src="{{ image.path }}" alt="">
-  {% endif %}
-{% endfor %}
+![haul]({{ site.url }}/assets/images/lego/haul.JPG)
